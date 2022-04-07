@@ -13,6 +13,8 @@
 		C78867C427FEAFF600CB1995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C78867C227FEAFF600CB1995 /* Main.storyboard */; };
 		C78867C627FEAFF800CB1995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C78867C527FEAFF800CB1995 /* Assets.xcassets */; };
 		C78867C927FEAFF800CB1995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C78867C727FEAFF800CB1995 /* LaunchScreen.storyboard */; };
+		C78867D427FEB2AF00CB1995 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78867D327FEB2AF00CB1995 /* HeaderCell.swift */; };
+		C78867D727FEB73C00CB1995 /* MultipleChangesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78867D627FEB73C00CB1995 /* MultipleChangesVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C78867C527FEAFF800CB1995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C78867C827FEAFF800CB1995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C78867CA27FEAFF800CB1995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C78867D327FEB2AF00CB1995 /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		C78867D627FEB73C00CB1995 /* MultipleChangesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleChangesVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				C78867C527FEAFF800CB1995 /* Assets.xcassets */,
 				C78867C727FEAFF800CB1995 /* LaunchScreen.storyboard */,
 				C78867CA27FEAFF800CB1995 /* Info.plist */,
+				C78867D327FEB2AF00CB1995 /* HeaderCell.swift */,
+				C78867D627FEB73C00CB1995 /* MultipleChangesVC.swift */,
 			);
 			path = "Multiple Group TableView";
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C78867D427FEB2AF00CB1995 /* HeaderCell.swift in Sources */,
 				C78867C127FEAFF600CB1995 /* ViewController.swift in Sources */,
+				C78867D727FEB73C00CB1995 /* MultipleChangesVC.swift in Sources */,
 				C78867BD27FEAFF600CB1995 /* AppDelegate.swift in Sources */,
 				C78867BF27FEAFF600CB1995 /* SceneDelegate.swift in Sources */,
 			);
